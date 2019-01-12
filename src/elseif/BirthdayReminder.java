@@ -28,12 +28,12 @@ public class BirthdayReminder {
 		}
 		// 5. if user asked for "dad"
 			// print dad's birthday
-		if(choice.equals("dads")) {
+		else if(choice.equals("dads")) {
 			System.out.println(dadsBirthday);
 		}
 		// 6. if user asked for your name
 			// print myBirthday
-		if(choice.equals("yours")) {
+		else if(choice.equals("yours")) {
 			System.out.println(myBirthday);
 		}
 		//7. otherwise print "Sorry, i don't remember that person's birthday!"
